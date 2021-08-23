@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7E4186C426D13C8A00FA8C5E /* myFirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4186C426D13C8A00FA8C5E /* MyFirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4186C726D13C8A00FA8C5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E4186C926D13C8A00FA8C5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7E4186CB26D13C8A00FA8C5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		7E4186D026D13C8C00FA8C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E4186D326D13C8C00FA8C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E4186D526D13C8C00FA8C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E4186DA26D13C8C00FA8C5E /* myFirstProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFirstProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4186DA26D13C8C00FA8C5E /* MyFirstProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4186DE26D13C8C00FA8C5E /* myFirstProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFirstProjectTests.swift; sourceTree = "<group>"; };
 		7E4186E026D13C8C00FA8C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E4186E526D13C8C00FA8C5E /* myFirstProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFirstProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4186E526D13C8C00FA8C5E /* MyFirstProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4186E926D13C8C00FA8C5E /* myFirstProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFirstProjectUITests.swift; sourceTree = "<group>"; };
 		7E4186EB26D13C8C00FA8C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		7E4186C526D13C8A00FA8C5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E4186C426D13C8A00FA8C5E /* myFirstProject.app */,
-				7E4186DA26D13C8C00FA8C5E /* myFirstProjectTests.xctest */,
-				7E4186E526D13C8C00FA8C5E /* myFirstProjectUITests.xctest */,
+				7E4186C426D13C8A00FA8C5E /* MyFirstProject.app */,
+				7E4186DA26D13C8C00FA8C5E /* MyFirstProjectTests.xctest */,
+				7E4186E526D13C8C00FA8C5E /* MyFirstProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E4186C326D13C8A00FA8C5E /* myFirstProject */ = {
+		7E4186C326D13C8A00FA8C5E /* MyFirstProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E4186EE26D13C8C00FA8C5E /* Build configuration list for PBXNativeTarget "myFirstProject" */;
+			buildConfigurationList = 7E4186EE26D13C8C00FA8C5E /* Build configuration list for PBXNativeTarget "MyFirstProject" */;
 			buildPhases = (
 				7E4186C026D13C8A00FA8C5E /* Sources */,
 				7E4186C126D13C8A00FA8C5E /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = myFirstProject;
+			name = MyFirstProject;
 			productName = myFirstProject;
-			productReference = 7E4186C426D13C8A00FA8C5E /* myFirstProject.app */;
+			productReference = 7E4186C426D13C8A00FA8C5E /* MyFirstProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7E4186D926D13C8C00FA8C5E /* myFirstProjectTests */ = {
+		7E4186D926D13C8C00FA8C5E /* MyFirstProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E4186F126D13C8C00FA8C5E /* Build configuration list for PBXNativeTarget "myFirstProjectTests" */;
+			buildConfigurationList = 7E4186F126D13C8C00FA8C5E /* Build configuration list for PBXNativeTarget "MyFirstProjectTests" */;
 			buildPhases = (
 				7E4186D626D13C8C00FA8C5E /* Sources */,
 				7E4186D726D13C8C00FA8C5E /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				7E4186DC26D13C8C00FA8C5E /* PBXTargetDependency */,
 			);
-			name = myFirstProjectTests;
+			name = MyFirstProjectTests;
 			productName = myFirstProjectTests;
-			productReference = 7E4186DA26D13C8C00FA8C5E /* myFirstProjectTests.xctest */;
+			productReference = 7E4186DA26D13C8C00FA8C5E /* MyFirstProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7E4186E426D13C8C00FA8C5E /* myFirstProjectUITests */ = {
+		7E4186E426D13C8C00FA8C5E /* MyFirstProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E4186F426D13C8C00FA8C5E /* Build configuration list for PBXNativeTarget "myFirstProjectUITests" */;
+			buildConfigurationList = 7E4186F426D13C8C00FA8C5E /* Build configuration list for PBXNativeTarget "MyFirstProjectUITests" */;
 			buildPhases = (
 				7E4186E126D13C8C00FA8C5E /* Sources */,
 				7E4186E226D13C8C00FA8C5E /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				7E4186E726D13C8C00FA8C5E /* PBXTargetDependency */,
 			);
-			name = myFirstProjectUITests;
+			name = MyFirstProjectUITests;
 			productName = myFirstProjectUITests;
-			productReference = 7E4186E526D13C8C00FA8C5E /* myFirstProjectUITests.xctest */;
+			productReference = 7E4186E526D13C8C00FA8C5E /* MyFirstProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7E4186BF26D13C8A00FA8C5E /* Build configuration list for PBXProject "myFirstProject" */;
+			buildConfigurationList = 7E4186BF26D13C8A00FA8C5E /* Build configuration list for PBXProject "MyFirstProject" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E4186C326D13C8A00FA8C5E /* myFirstProject */,
-				7E4186D926D13C8C00FA8C5E /* myFirstProjectTests */,
-				7E4186E426D13C8C00FA8C5E /* myFirstProjectUITests */,
+				7E4186C326D13C8A00FA8C5E /* MyFirstProject */,
+				7E4186D926D13C8C00FA8C5E /* MyFirstProjectTests */,
+				7E4186E426D13C8C00FA8C5E /* MyFirstProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		7E4186DC26D13C8C00FA8C5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7E4186C326D13C8A00FA8C5E /* myFirstProject */;
+			target = 7E4186C326D13C8A00FA8C5E /* MyFirstProject */;
 			targetProxy = 7E4186DB26D13C8C00FA8C5E /* PBXContainerItemProxy */;
 		};
 		7E4186E726D13C8C00FA8C5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7E4186C326D13C8A00FA8C5E /* myFirstProject */;
+			target = 7E4186C326D13C8A00FA8C5E /* MyFirstProject */;
 			targetProxy = 7E4186E626D13C8C00FA8C5E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -487,7 +487,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myFirstProject.app/myFirstProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstProject.app/MyFirstProject";
 			};
 			name = Debug;
 		};
@@ -509,7 +509,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myFirstProject.app/myFirstProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstProject.app/MyFirstProject";
 			};
 			name = Release;
 		};
@@ -556,7 +556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E4186BF26D13C8A00FA8C5E /* Build configuration list for PBXProject "myFirstProject" */ = {
+		7E4186BF26D13C8A00FA8C5E /* Build configuration list for PBXProject "MyFirstProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E4186EC26D13C8C00FA8C5E /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E4186EE26D13C8C00FA8C5E /* Build configuration list for PBXNativeTarget "myFirstProject" */ = {
+		7E4186EE26D13C8C00FA8C5E /* Build configuration list for PBXNativeTarget "MyFirstProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E4186EF26D13C8C00FA8C5E /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E4186F126D13C8C00FA8C5E /* Build configuration list for PBXNativeTarget "myFirstProjectTests" */ = {
+		7E4186F126D13C8C00FA8C5E /* Build configuration list for PBXNativeTarget "MyFirstProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E4186F226D13C8C00FA8C5E /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E4186F426D13C8C00FA8C5E /* Build configuration list for PBXNativeTarget "myFirstProjectUITests" */ = {
+		7E4186F426D13C8C00FA8C5E /* Build configuration list for PBXNativeTarget "MyFirstProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E4186F526D13C8C00FA8C5E /* Debug */,
