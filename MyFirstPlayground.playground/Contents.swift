@@ -150,6 +150,14 @@ import Foundation
  }
  */
 
+let num=22
+switch num {
+case num where num%2==0:
+    print("짝수 > \(num)")
+default:
+    print("홀수 > \(num)")
+}
+
 func printTotalPrice(price:Int, count:Int) {
     print("Total Price : \(price * count)")
 }
