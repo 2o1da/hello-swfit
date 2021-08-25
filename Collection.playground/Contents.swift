@@ -25,7 +25,6 @@ if let firstElement = evenNumbers.first {
     print("Nothing")
 }
 
-
 oddNumbers.min()
 oddNumbers.max()
 
@@ -33,7 +32,8 @@ oddNumbers[1]
 oddNumbers[3]
 
 oddNumbers
-oddNumbers[0...3]
+print(oddNumbers[0...3])
+
 
 // method
 oddNumbers.contains(2)

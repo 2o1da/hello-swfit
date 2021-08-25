@@ -1,5 +1,3 @@
-//: [Previous](@previous)
-
 import Foundation
 
 /*
@@ -19,6 +17,11 @@ func distance(current: (x:Int, y:Int), target: (x: Int, y: Int)) -> Double {
 struct Location {
     let x: Int
     let y: Int
+}
+
+struct Store{
+    let loc: Location
+    let name: String
 }
 
 let store1 = (loc: Location(x: 3, y: 5), name: "GS")

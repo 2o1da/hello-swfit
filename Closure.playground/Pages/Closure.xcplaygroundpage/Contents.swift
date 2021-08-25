@@ -27,7 +27,7 @@ exampleClosure2("다솔")
 
 // 4. return
 let exampleClosure3: (String) -> String = { name in
-    let message = ("Hello \(name)~")
+    let message = "Hello \(name)~"
     return message + "ㅋㅋㅋ"
 }
 
