@@ -344,7 +344,8 @@ extension Math {
         return value * value
     }
     
-    static func half(value: Int) -> Int {
+    static func half(value: Int) -> Int
+    {
         return value / 2
     }
 }
