@@ -389,3 +389,139 @@ case .unknown:
     print("알 수 없음.")
 }
 
+
+
+
+// 옵셔널 체이닝
+struct Developer {
+    let name: String
+}
+
+struct Company {
+    let name: String
+    var dev: Developer?
+}
+
+var developer1 = Developer(name: "Dasol")
+var company1 = Company(name: "SOLDA", dev: developer1)
+print(company1)
+print(company1.dev)
+print(company1.dev?.name)
+print(company1.dev!.name)
+
+
+// try-catch
+enum PhoneError2: Error {
+    case unknown
+    case batteryLow(batterLevel: Int)
+}
+
+//throw PhoneError2.batteryLow(batterLevel: 20)
+
+func checkPhoneBatteryStatus(batteryLevel: Int) throws -> String {
+    guard batteryLevel != -1 else { throw PhoneError2.unknown }
+    guard batteryLevel > 20 else { throw PhoneError2.batteryLow(batterLevel: batteryLevel) }
+    return "배터리 상태가 정상입니다."
+}
+
+do {
+    try checkPhoneBatteryStatus(batteryLevel: 17)
+    
+} catch PhoneError2.unknown {
+    print("알 수 없는 에러입니다.")
+} catch PhoneError2.batteryLow(let batteryLevel) {
+    print("배터리 부족 : \(batteryLevel)")
+} catch {
+    print("그 외 오류 발생 : \(error)")
+}
+
+// try? 에러면 nil을 반환한다, 에러가 아니면 Optional을 반환한다
+let status = try? checkPhoneBatteryStatus(batteryLevel: 20)
+print(status)
+
+// try! throwing 함수가 에러 발생하지 않을 거라고 확신할 때 사용, 에러 발생하면 강제 종료
+let status2 = try! checkPhoneBatteryStatus(batteryLevel: 21)
+print(status2)
+
+
+//let hello = { () -> () in
+//    print("Hello")
+//}
+let hello = {
+    print("Hello")
+}
+
+hello()
+
+let hello2 = { (name: String) -> String in
+    return "Hello, \(name)"
+}
+
+//hello2(name: "DASOL") // ERROR
+hello2("DASOL")
+
+// 함수 파라미터 타입
+func doSomething(closure: () -> ()) {
+    closure()
+}
+
+doSomething(closure: hello)
+doSomething(closure: { () -> () in
+    print("안녕")
+//    return
+})
+doSomething() {
+    print("안녕2")
+}
+doSomething {
+    print("안녕3")
+}
+
+// 리턴 타입
+func doSomething2() -> () -> () {
+    return { () -> () in
+        print("안녕하세요")
+    }
+}
+
+doSomething2()()
+
+
+func doSomething3(success: () -> (), fail: () -> ()) {
+    
+}
+
+doSomething3 {
+// 첫번째 매개변수 레이블 생략
+} fail: {
+    
+}
+
+func doSomething0(closure: (Int, Int, Int) -> Int) {
+    closure(1, 2, 3)
+}
+
+doSomething0(closure: {(a, b, c) in
+    return a+b+c
+})
+
+// 약식인수 : 매개변수 이름 대신하여 사용
+doSomething0(closure: {
+    return $0 + $1 + $2
+})
+
+// 단일 return문일 때만 return 생략 가능
+doSomething0(closure: {
+    //print("Hello")
+    $0 + $1 + $2
+})
+
+doSomething0() {
+    $0+$1+$2
+}
+
+// 단 하나의 클로저만 매개변수로 전달할 시
+doSomething0 {
+    $0+$1+$2
+}
+
