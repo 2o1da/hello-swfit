@@ -50,7 +50,7 @@
                     <navigationItem key="navigationItem" id="KMh-AS-X23">
                         <barButtonItem key="rightBarButtonItem" title="설정" id="AfC-DF-sCu">
                             <connections>
-                                <segue destination="mAl-Qb-dZq" kind="show" id="CEQ-Zd-49I"/>
+                                <segue destination="mAl-Qb-dZq" kind="show" id="ScM-bN-BhU"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -67,7 +67,7 @@
         <scene sceneID="C7N-Ty-rmW">
             <objects>
                 <viewController id="mAl-Qb-dZq" customClass="SettingViewController" customModule="LEDBoard" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4WO-KZ-Bdm">
+                    <view key="view" contentMode="scaleToFill" id="4WO-KZ-Bdm" customClass="Sett">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -102,10 +102,10 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QcP-Lu-1Qt">
                                         <rect key="frame" x="0.0" y="35.5" width="188" height="46"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dS6-l0-3cB" userLabel="Yellow Button">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dS6-l0-3cB">
                                                 <rect key="frame" x="0.0" y="0.0" width="56" height="46"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="yellow_circle"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="yellow_circle" title=""/>
                                                 <connections>
                                                     <action selector="tapTextColorButton:" destination="mAl-Qb-dZq" eventType="touchUpInside" id="36s-dv-xxM"/>
                                                 </connections>
@@ -208,7 +208,6 @@
                         <outlet property="orangeButton" destination="eCy-Bd-Xbq" id="cRj-MS-R23"/>
                         <outlet property="purpleButton" destination="Efy-FM-ayo" id="YcC-56-nRz"/>
                         <outlet property="textField" destination="YEY-Mx-Q3I" id="g1M-Jj-NLL"/>
-                        <outlet property="yelloButton" destination="dS6-l0-3cB" id="eod-L2-xMh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cID-m2-l8H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

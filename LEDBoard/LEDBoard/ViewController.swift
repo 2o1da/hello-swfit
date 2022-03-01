@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController, LEDBoardSettingDelegate {
 
     @IBOutlet weak var contentsLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.contentsLabel.textColor = .yellow
